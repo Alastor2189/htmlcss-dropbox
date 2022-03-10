@@ -7,11 +7,23 @@
 html{
     font-family: "Open Sans", sans-serif;
 }
+img{
+    width: 100%;
+}
 ul{
     list-style: none;
 }
 a{
     text-decoration: none;
+    color: black;
+}
+h1{
+    font-size: 4.4em;
+}
+.btn-blue{
+    background-color: blue;
+    color: white;
+    padding: 3px 15px;
 }
 .header-container{
     width: 100%;
@@ -35,6 +47,19 @@ a{
 .menu-header li{
     margin-right: 30px;
 }
+.jumbotron{
+    height: 100vh;
+    width: 100%;
+    background-color:#b4d0e7 ;
+
+
+}
+.container-jumbo{
+    width: 80%;
+    margin: auto;
+    height: 623px;
+    padding: 90px 0px;
+}
 .clearfix::after{
     content: "";
     display: table;
@@ -48,4 +73,15 @@ a{
 }
 .center-header li, .right-header li{
     display: inline-block;
+}
+
+.top-jumbotron{
+    margin-top: 3px;
+    
+}
+.left-bot-jumbo{
+    width: 30%;
+}
+.right-bot-jumbo{
+    width: 70%;
 }
