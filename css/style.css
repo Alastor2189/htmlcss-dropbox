@@ -77,11 +77,34 @@ h1{
 
 .top-jumbotron{
     margin-top: 3px;
-    
+    height: 33vh;
 }
 .left-bot-jumbo{
     width: 30%;
 }
+.arrow{
+    font-size: 3em;
+}
+.free-trial{
+    margin: 1.3em 0;
+}
 .right-bot-jumbo{
     width: 70%;
+}
+
+.business{
+    width: 70%;
+    margin: auto;
+}
+
+.fatturazione{
+    display: inline-block;
+}
+
+.professional, .standard, .advanced {
+    width: 30%;
+}
+
+.standard{
+    margin: 0 4%;
 }
