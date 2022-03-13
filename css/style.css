@@ -6,6 +6,7 @@
 
 html{
     font-family: "Open Sans", sans-serif;
+    scroll-behavior: smooth;
 }
 img{
     width: 100%;
@@ -60,6 +61,9 @@ h1{
     height: 623px;
     padding: 90px 0px;
 }
+.clearfix{
+    clear: both;
+}
 .clearfix::after{
     content: "";
     display: table;
@@ -94,7 +98,8 @@ h1{
 
 .business{
     width: 70%;
-    margin: auto;
+    height: 100vh;
+    margin: 13em auto;
 }
 
 .fatturazione{
@@ -107,4 +112,80 @@ h1{
 
 .standard{
     margin: 0 4%;
+}
+
+.team{
+    text-align: center;
+}
+.enterprise{
+    width: 70%;
+}
+
+.clmn-img{
+    width: 55%;
+}
+
+.text-clmn{
+    width: 44%;
+    padding: 50px;
+}
+
+.items, .items-center{
+    width: 30%;
+}
+
+.items-center{
+    margin: 0 3%;
+}
+
+.sponsor {
+    width: 70%;
+    margin: 25em auto;
+}
+
+.designit{
+    background-color: #a2d39b;
+    border: 1px solid #d0e9cd;
+}
+ 
+.asu{
+    background-color: #61082b;
+}
+
+.florida{
+    background-color: #0093ce;
+}
+
+.topps{
+    background-color: #ff1c1c;
+}
+
+.wbr{
+    background-color: #d5001f;
+}
+
+.hearst{
+    background-color: #b4d0e7;
+}
+
+.planet{
+    background-color: #0d2481;
+}
+
+.clear{
+    background-color: #ffd830;
+}
+
+.dropbox-trial{
+    width: 100%;
+    height: 40vh;
+    background-color: #b4d0e7;
+}
+
+footer{
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    color: white;
+
 }
